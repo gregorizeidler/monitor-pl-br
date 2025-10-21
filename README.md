@@ -70,18 +70,6 @@ O **Monitor PL Brasil** é uma plataforma completa de fiscalização cívica que
 </tr>
 </table>
 
-### 📊 Estatísticas do Projeto
-
-```
-📦 ~6.000+ Linhas de Código
-👥 15+ Deputados Monitorados
-💰 8.880+ Gastos Registrados
-📋 100+ Projetos de Lei Rastreados
-🗳️ 50+ Votações Analisadas
-📰 500+ Notícias Agregadas
-🤖 1 Chatbot Inteligente
-```
-
 ---
 
 ## ⚡ Funcionalidades
@@ -186,32 +174,13 @@ Monitora MPs ativas e seus prazos.
 
 O Monitor PL Brasil inclui um chatbot powered by OpenAI que permite consultas em linguagem natural sobre todo o histórico de dados parlamentares.
 
-<table>
-<tr>
-<td width="50%">
-
 #### 🎯 **Capacidades**
 
 - 💬 Conversa em linguagem natural
-- 📊 Consulta dados de 5 anos
+- 📊 Consulta dados históricos
 - 🔍 Busca inteligente no banco
 - 📈 Gera estatísticas em tempo real
 - 🎨 Interface amigável e moderna
-
-</td>
-<td width="50%">
-
-#### 🗄️ **Dados Disponíveis**
-
-- 👥 15+ deputados
-- 💰 8.880+ gastos parlamentares
-- 📋 Projetos de lei históricos
-- 🗳️ Votações registradas
-- ⚡ Medidas provisórias
-
-</td>
-</tr>
-</table>
 
 ### 📝 Exemplos de Perguntas
 
