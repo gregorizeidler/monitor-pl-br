@@ -1,0 +1,74 @@
+
+"""
+Coletor de notícias da Agência Brasil."""
+import logging
+import feedparser
+import requests
+
+
+# Configuração básica de logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+AGENCIABRASIL_NEWS_RSS_URL = "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml"
+
+# Cabeçalho para simular um navegador
+HEADERS = {
+    'User-Agent': ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+                   '(KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36')
+}
+
+
+def fetch_agenciabrasil_news():
+    """
+    Busca as últimas notícias do feed RSS da Agência Brasil.
+
+    Retorna:
+        list: Uma lista de dicionários, onde cada dicionário representa uma notícia
+              com as chaves 'title', 'link' e 'summary'.
+              Retorna uma lista vazia em caso de erro.
+    """
+    logging.info(f"Buscando notícias do feed: {AGENCIABRASIL_NEWS_RSS_URL}")
+    try:
+        response = requests.get(AGENCIABRASIL_NEWS_RSS_URL, headers=HEADERS,
+                                timeout=15, verify=False)
+        response.raise_for_status()
+
+        feed = feedparser.parse(response.content)
+
+        if feed.bozo:
+            logging.error("O feed RSS da Agência Brasil está malformado. Causa: %s",
+                          feed.bozo_exception)
+            return []
+
+        news_list = []
+        for entry in feed.entries:
+            news_item = {
+                'title': entry.title,
+                'link': entry.link,
+                'summary': getattr(entry, 'summary', '')
+            }
+            news_list.append(news_item)
+
+        logging.info("%d notícias encontradas no feed da Agência Brasil.", len(news_list))
+        return news_list
+
+    except requests.RequestException as e:
+        logging.error("Falha ao fazer a requisição para o feed da Agência Brasil: %s", e)
+        return []
+    except Exception as e:  # pylint: disable=broad-except
+        logging.error("Falha ao analisar o feed de notícias da Agência Brasil: %s", e)
+        return []
+
+
+if __name__ == '__main__':
+    print("--- Testando o coletor de notícias da Agência Brasil ---")
+    latest_news = fetch_agenciabrasil_news()
+    if latest_news:
+        print(f"\nEncontradas {len(latest_news)} notícias.")
+        print("\n--- Exemplo da primeira notícia encontrada ---")
+        print(f"Título: {latest_news[0]['title']}")
+        print(f"Link: {latest_news[0]['link']}")
+        print(f"Resumo: {latest_news[0]['summary']}")
+        print("-" * 50)
+    else:
+        print("Nenhuma notícia foi encontrada ou ocorreu um erro.")

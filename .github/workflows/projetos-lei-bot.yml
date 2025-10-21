@@ -1,0 +1,46 @@
+# Workflow do GitHub Actions para o Monitor PL Brasil
+# Bot automatizado de acompanhamento de Projetos de Lei
+
+name: Monitor PL Brasil - Automação
+
+on:
+  schedule:
+    # Roda uma vez por dia às 14:00 UTC (11:00 Brasília)
+    - cron: '0 14 * * *'
+
+  workflow_dispatch:
+
+jobs:
+  run-projetos-bot:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 1. Baixando o código do projeto
+        uses: actions/checkout@v3
+
+      - name: 2. Configurando o ambiente Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: 3. Instalando dependências
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 4. Rodando o bot de projetos de lei
+        run: python3 main_projetos_lei.py
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+
+      - name: 5. Commit do estado atualizado
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: Atualiza estado do bot de projetos de lei'
+          file_pattern: estado.json
+

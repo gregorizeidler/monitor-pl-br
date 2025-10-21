@@ -1,0 +1,40 @@
+# Monitor PL Brasil - Dependências Python
+# ===========================================
+
+# Cliente HTTP para APIs
+requests>=2.31.0
+
+# Twitter/X API
+tweepy>=4.14.0
+
+# Gerenciamento de variáveis de ambiente
+python-dotenv>=1.0.0
+
+# Parser de RSS feeds
+feedparser>=6.0.10
+
+# Manipulação de datas
+python-dateutil>=2.8.2
+
+# Validação de dados
+pydantic>=2.5.0
+
+# Retry logic
+tenacity>=8.2.3
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-mock>=3.12.0
+responses>=0.24.0
+
+# Monitoring
+sentry-sdk>=1.40.0
+
+# Rate limiting
+ratelimit>=2.2.1
+
+# ===========================================
+# Instalação:
+# pip install -r requirements.txt
+# ===========================================

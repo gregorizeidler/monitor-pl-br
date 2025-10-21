@@ -1,0 +1,66 @@
+version: '3.8'
+
+services:
+  # Backend Python
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: monitor-pl-backend
+    restart: unless-stopped
+    environment:
+      - LOG_LEVEL=INFO
+      - X_API_KEY=${X_API_KEY}
+      - X_API_SECRET=${X_API_SECRET}
+      - X_ACCESS_TOKEN=${X_ACCESS_TOKEN}
+      - X_ACCESS_TOKEN_SECRET=${X_ACCESS_TOKEN_SECRET}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - SENTRY_DSN=${SENTRY_DSN}
+    volumes:
+      - ./data:/app/data
+      - ./database:/app/database
+      - ./estado.json:/app/estado.json
+      - ./ranking_gastos.json:/app/ranking_gastos.json
+    networks:
+      - monitor-pl-network
+    healthcheck:
+      test: ["CMD", "python", "-c", "import sys; sys.exit(0)"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Frontend Next.js
+  frontend:
+    build:
+      context: ./dashboard
+      dockerfile: Dockerfile
+    container_name: monitor-pl-frontend
+    restart: unless-stopped
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=production
+      - NEXT_PUBLIC_API_URL=http://backend:8000
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - ./database:/app/database
+      - ./estado.json:/app/estado.json
+      - ./ranking_gastos.json:/app/ranking_gastos.json
+    depends_on:
+      - backend
+    networks:
+      - monitor-pl-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3001/api/dashboard"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+networks:
+  monitor-pl-network:
+    driver: bridge
+
+volumes:
+  data:
+  database:
+
