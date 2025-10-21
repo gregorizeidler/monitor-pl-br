@@ -42,7 +42,9 @@
 
 ## 🎯 Sobre o Projeto
 
-O **Monitor PL Brasil** é uma plataforma completa de fiscalização cívica que transforma dados públicos em informação acessível e acionável. Monitora em tempo real toda a atividade parlamentar brasileira e disponibiliza através de um dashboard moderno, API REST e um chatbot com inteligência artificial.
+O **Monitor PL Brasil** é uma plataforma completa de fiscalização cívica que transforma dados públicos em informação acessível e acionável. Monitora em tempo real toda a atividade parlamentar brasileira e disponibiliza através de um dashboard moderno, API REST, chatbot com inteligência artificial **e posts automáticos no Twitter/X** para máxima visibilidade e engajamento público.
+
+> **🐦 Destaque:** Sistema automatizado de threads no Twitter/X! Configure suas credenciais e tenha posts automáticos sobre gastos, PLs e notícias 2-3x por dia. Transparência legislativa direto na timeline do público. [Ver configuração](#-configuração-do-twitterx)
 
 ### 🌟 Diferenciais
 
@@ -54,6 +56,7 @@ O **Monitor PL Brasil** é uma plataforma completa de fiscalização cívica que
 - 🤖 Chatbot com IA (OpenAI GPT-4)
 - 📊 Dashboard em tempo real (Next.js 14)
 - 🗄️ Banco de dados histórico (SQLite)
+- 🐦 Posts automáticos no Twitter/X
 - 🔄 100% automatizado (GitHub Actions)
 
 </td>
