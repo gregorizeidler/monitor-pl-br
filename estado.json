@@ -1,5 +1,5 @@
 {
-  "last_processed_deputy_index": 106,
+  "last_processed_deputy_index": 107,
   "posted_news": [
     {
       "link": "https://www12.senado.leg.br/noticias/audios/2025/10/munido-de-habeas-corpus-ex-presidente-do-inss-fala-na-cpmi",
@@ -94,69 +94,69 @@
     {
       "id": 2573075,
       "numero": "PL 5264/2025",
-      "categoria": "educação",
+      "categoria": "educa\u00e7\u00e3o",
       "importancia": 5,
-      "last_status": "Apresentação de Proposição",
+      "last_status": "Apresenta\u00e7\u00e3o de Proposi\u00e7\u00e3o",
       "tracked_at": "2025-10-17T00:43:46.013594",
       "posted": false,
-      "ementa": "\"Altera a legislação para incluir os profissionais do magistério da educação básica no rol de categorias com direito a adicionais de insalubridade e/ou periculosidade, conforme o caso.\""
+      "ementa": "\"Altera a legisla\u00e7\u00e3o para incluir os profissionais do magist\u00e9rio da educa\u00e7\u00e3o b\u00e1sica no rol de categorias com direito a adicionais de insalubridade e/ou periculosidade, conforme o caso.\""
     },
     {
       "id": 2573074,
       "numero": "PL 5263/2025",
-      "categoria": "educação",
+      "categoria": "educa\u00e7\u00e3o",
       "importancia": 3,
-      "last_status": "Apresentação de Proposição",
+      "last_status": "Apresenta\u00e7\u00e3o de Proposi\u00e7\u00e3o",
       "tracked_at": "2025-10-17T00:43:46.013743",
       "posted": false,
-      "ementa": "\"Faculta o consumo das refeições fornecidas no âmbito do Programa Nacional de Alimentação Escolar (PNAE) aos profissionais de educação em exercício nas escolas públicas, sem prejuízo de outros benefícios.\""
+      "ementa": "\"Faculta o consumo das refei\u00e7\u00f5es fornecidas no \u00e2mbito do Programa Nacional de Alimenta\u00e7\u00e3o Escolar (PNAE) aos profissionais de educa\u00e7\u00e3o em exerc\u00edcio nas escolas p\u00fablicas, sem preju\u00edzo de outros benef\u00edcios.\""
     },
     {
       "id": 2573051,
       "numero": "PL 5261/2025",
-      "categoria": "segurança",
+      "categoria": "seguran\u00e7a",
       "importancia": 5,
-      "last_status": "Apresentação de Proposição",
+      "last_status": "Apresenta\u00e7\u00e3o de Proposi\u00e7\u00e3o",
       "tracked_at": "2025-10-17T00:43:46.013789",
       "posted": false,
-      "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para prever causa de aumento de pena e dispor sobre a ação penal nos crimes de estelionato praticados mediante simulação de exercício da advocacia ou de representação de órgãos do sistema de Justiça."
+      "ementa": "Altera o Decreto-Lei n\u00ba 2.848, de 7 de dezembro de 1940 (C\u00f3digo Penal), para prever causa de aumento de pena e dispor sobre a a\u00e7\u00e3o penal nos crimes de estelionato praticados mediante simula\u00e7\u00e3o de exerc\u00edcio da advocacia ou de representa\u00e7\u00e3o de \u00f3rg\u00e3os do sistema de Justi\u00e7a."
     },
     {
       "id": 2573021,
       "numero": "PL 5259/2025",
       "categoria": "economia",
       "importancia": 3,
-      "last_status": "Apresentação de Proposição",
+      "last_status": "Apresenta\u00e7\u00e3o de Proposi\u00e7\u00e3o",
       "tracked_at": "2025-10-17T00:43:46.013818",
       "posted": false,
-      "ementa": "Altera a Lei nº 7.713, de 22 de dezembro de 1988, para isentar do Imposto sobre a Renda os prêmios em dinheiro recebidos no exterior por pessoas físicas residentes no País em razão de conquistas esportivas e premiações acadêmico-científicas."
+      "ementa": "Altera a Lei n\u00ba 7.713, de 22 de dezembro de 1988, para isentar do Imposto sobre a Renda os pr\u00eamios em dinheiro recebidos no exterior por pessoas f\u00edsicas residentes no Pa\u00eds em raz\u00e3o de conquistas esportivas e premia\u00e7\u00f5es acad\u00eamico-cient\u00edficas."
     },
     {
       "id": 2572984,
       "numero": "PL 5258/2025",
-      "categoria": "saúde",
+      "categoria": "sa\u00fade",
       "importancia": 3,
-      "last_status": "Apresentação de Proposição",
+      "last_status": "Apresenta\u00e7\u00e3o de Proposi\u00e7\u00e3o",
       "tracked_at": "2025-10-17T00:43:46.013840",
       "posted": false,
-      "ementa": "Institui a Política Nacional de Equidade em Saúde da População Negra e Afrodescendente e dá outras providências."
+      "ementa": "Institui a Pol\u00edtica Nacional de Equidade em Sa\u00fade da Popula\u00e7\u00e3o Negra e Afrodescendente e d\u00e1 outras provid\u00eancias."
     },
     {
       "id": 2572933,
       "numero": "PL 5252/2025",
-      "categoria": "educação",
+      "categoria": "educa\u00e7\u00e3o",
       "importancia": 5,
-      "last_status": "Apresentação de Proposição",
+      "last_status": "Apresenta\u00e7\u00e3o de Proposi\u00e7\u00e3o",
       "tracked_at": "2025-10-17T00:43:46.013862",
       "posted": false,
-      "ementa": "Dispõe sobre a inclusão da Educação Climática e Ambiental como eixo transversal e interdisciplinar obrigatório no currículo da educação básica, e dá outras providências."
+      "ementa": "Disp\u00f5e sobre a inclus\u00e3o da Educa\u00e7\u00e3o Clim\u00e1tica e Ambiental como eixo transversal e interdisciplinar obrigat\u00f3rio no curr\u00edculo da educa\u00e7\u00e3o b\u00e1sica, e d\u00e1 outras provid\u00eancias."
     }
   ],
   "recent_votes": [
     {
       "id": "2537826-18",
       "data": "2025-10-20T17:19:53",
-      "descricao": "Realizar o encaminhamento da MPV-1306/2025 à MPV130625 (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+      "descricao": "Realizar o encaminhamento da MPV-1306/2025 \u00e0 MPV130625 (tramita\u00e7\u00e3o simult\u00e2nea), em raz\u00e3o da aprova\u00e7\u00e3o de requerimento de urg\u00eancia.",
       "proposicao": "",
       "votos_sim": 0,
       "votos_nao": 0,
@@ -168,7 +168,7 @@
     {
       "id": "2537826-17",
       "data": "2025-10-20T17:19:53",
-      "descricao": "Realizar o encaminhamento da MPV-1306/2025 à MPV130625 (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+      "descricao": "Realizar o encaminhamento da MPV-1306/2025 \u00e0 MPV130625 (tramita\u00e7\u00e3o simult\u00e2nea), em raz\u00e3o da aprova\u00e7\u00e3o de requerimento de urg\u00eancia.",
       "proposicao": "",
       "votos_sim": 0,
       "votos_nao": 0,
@@ -180,7 +180,7 @@
     {
       "id": "2537826-16",
       "data": "2025-10-20T17:19:53",
-      "descricao": "Realizar o encaminhamento da MPV-1306/2025 à MPV130625 (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+      "descricao": "Realizar o encaminhamento da MPV-1306/2025 \u00e0 MPV130625 (tramita\u00e7\u00e3o simult\u00e2nea), em raz\u00e3o da aprova\u00e7\u00e3o de requerimento de urg\u00eancia.",
       "proposicao": "",
       "votos_sim": 0,
       "votos_nao": 0,
@@ -192,7 +192,7 @@
     {
       "id": "2537826-15",
       "data": "2025-10-20T17:19:52",
-      "descricao": "Realizar o encaminhamento da MPV-1306/2025 à MPV130625 (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+      "descricao": "Realizar o encaminhamento da MPV-1306/2025 \u00e0 MPV130625 (tramita\u00e7\u00e3o simult\u00e2nea), em raz\u00e3o da aprova\u00e7\u00e3o de requerimento de urg\u00eancia.",
       "proposicao": "",
       "votos_sim": 0,
       "votos_nao": 0,
@@ -204,7 +204,7 @@
     {
       "id": "2537826-14",
       "data": "2025-10-20T17:19:52",
-      "descricao": "Realizar o encaminhamento da MPV-1306/2025 à MPV130625 (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+      "descricao": "Realizar o encaminhamento da MPV-1306/2025 \u00e0 MPV130625 (tramita\u00e7\u00e3o simult\u00e2nea), em raz\u00e3o da aprova\u00e7\u00e3o de requerimento de urg\u00eancia.",
       "proposicao": "",
       "votos_sim": 0,
       "votos_nao": 0,
@@ -218,20 +218,20 @@
     {
       "id": 2564536,
       "numero": "MPV 1320/2025",
-      "ementa": "Abre crédito extraordinário, em favor do Ministério do Desenvolvimento Agrário e Agricultura Familiar, no valor de R$ 37.998.000,00, para o fim que especifica.",
+      "ementa": "Abre cr\u00e9dito extraordin\u00e1rio, em favor do Minist\u00e9rio do Desenvolvimento Agr\u00e1rio e Agricultura Familiar, no valor de R$ 37.998.000,00, para o fim que especifica.",
       "data_apresentacao": "2025-09-25T00:00",
-      "status": "Notificações",
+      "status": "Notifica\u00e7\u00f5es",
       "dias_restantes": 95,
       "nivel_urgencia": 1,
       "prazo_vencido": false,
       "importancia": 5,
-      "categoria": "emergência",
+      "categoria": "emerg\u00eancia",
       "coletado_em": "2025-10-20T19:02:22.618748"
     },
     {
       "id": 2562175,
       "numero": "MPV 1319/2025",
-      "ementa": "Altera a Lei nº 15.211, de 17 de setembro de 2025, para dispor sobre a vigência do Estatuto Digital da Criança e do Adolescente.",
+      "ementa": "Altera a Lei n\u00ba 15.211, de 17 de setembro de 2025, para dispor sobre a vig\u00eancia do Estatuto Digital da Crian\u00e7a e do Adolescente.",
       "data_apresentacao": "2025-09-18T00:00",
       "status": "Abertura de Prazo",
       "dias_restantes": 88,
@@ -244,7 +244,7 @@
     {
       "id": 2562174,
       "numero": "MPV 1318/2025",
-      "ementa": "Altera a Lei nº 11.196, de 21 de novembro de 2005, para instituir o Regime Especial de Tributação para Serviços de Datacenter - REDATA, e a Lei nº 15.211, de 17 de setembro de 2025.",
+      "ementa": "Altera a Lei n\u00ba 11.196, de 21 de novembro de 2005, para instituir o Regime Especial de Tributa\u00e7\u00e3o para Servi\u00e7os de Datacenter - REDATA, e a Lei n\u00ba 15.211, de 17 de setembro de 2025.",
       "data_apresentacao": "2025-09-18T00:00",
       "status": "Abertura de Prazo",
       "dias_restantes": 88,
@@ -257,7 +257,7 @@
     {
       "id": 2562173,
       "numero": "MPV 1317/2025",
-      "ementa": "Altera a Lei nº 13.709, de 14 de agosto de 2018, para tratar da Agência Nacional de Proteção de Dados, a Lei nº 10.871, de 20 de maio de 2004, para criar a Carreira de Regulação e Fiscalização de Proteção de Dados, transforma cargos no âmbito do Poder Executivo federal, e dá outras providências.",
+      "ementa": "Altera a Lei n\u00ba 13.709, de 14 de agosto de 2018, para tratar da Ag\u00eancia Nacional de Prote\u00e7\u00e3o de Dados, a Lei n\u00ba 10.871, de 20 de maio de 2004, para criar a Carreira de Regula\u00e7\u00e3o e Fiscaliza\u00e7\u00e3o de Prote\u00e7\u00e3o de Dados, transforma cargos no \u00e2mbito do Poder Executivo federal, e d\u00e1 outras provid\u00eancias.",
       "data_apresentacao": "2025-09-18T00:00",
       "status": "Abertura de Prazo",
       "dias_restantes": 88,
@@ -270,20 +270,20 @@
     {
       "id": 2561651,
       "numero": "MPV 1316/2025",
-      "ementa": "Abre crédito extraordinário, em favor de Operações Oficiais de Crédito, no valor de R$ 12.000.000.000,00, para o fim que especifica.",
+      "ementa": "Abre cr\u00e9dito extraordin\u00e1rio, em favor de Opera\u00e7\u00f5es Oficiais de Cr\u00e9dito, no valor de R$ 12.000.000.000,00, para o fim que especifica.",
       "data_apresentacao": "2025-09-17T00:00",
-      "status": "Notificações",
+      "status": "Notifica\u00e7\u00f5es",
       "dias_restantes": 87,
       "nivel_urgencia": 2,
       "prazo_vencido": false,
       "importancia": 5,
-      "categoria": "emergência",
+      "categoria": "emerg\u00eancia",
       "coletado_em": "2025-10-20T19:02:24.137681"
     },
     {
       "id": 2561008,
       "numero": "MPV 1315/2025",
-      "ementa": "Altera a Lei nº 14.871, de 28 de maio de 2024, para dispor sobre o limite da autorização para concessão de quotas diferenciadas de depreciação acelerada para navios-tanque novos produzidos no Brasil destinados ao ativo imobilizado e empregados exclusivamente em atividades de cabotagem de petróleo e seus derivados e de derivados de gás natural, e para embarcações de apoio marítimo utilizadas para o suporte logístico e a prestação de serviços aos campos, às instalações e às plataformas offshore.",
+      "ementa": "Altera a Lei n\u00ba 14.871, de 28 de maio de 2024, para dispor sobre o limite da autoriza\u00e7\u00e3o para concess\u00e3o de quotas diferenciadas de deprecia\u00e7\u00e3o acelerada para navios-tanque novos produzidos no Brasil destinados ao ativo imobilizado e empregados exclusivamente em atividades de cabotagem de petr\u00f3leo e seus derivados e de derivados de g\u00e1s natural, e para embarca\u00e7\u00f5es de apoio mar\u00edtimo utilizadas para o suporte log\u00edstico e a presta\u00e7\u00e3o de servi\u00e7os aos campos, \u00e0s instala\u00e7\u00f5es e \u00e0s plataformas offshore.",
       "data_apresentacao": "2025-09-15T00:00",
       "status": "Abertura de Prazo",
       "dias_restantes": 85,
@@ -296,7 +296,7 @@
     {
       "id": 2557564,
       "numero": "MPV 1314/2025",
-      "ementa": "Autoriza a utilização do superávit financeiro de fontes supervisionadas pelo Ministério da Fazenda e de recursos livres das instituições financeiras para a disponibilização de linhas de crédito rural destinadas à liquidação ou à amortização de dívidas de produtores\nrurais prejudicados por eventos adversos.",
+      "ementa": "Autoriza a utiliza\u00e7\u00e3o do super\u00e1vit financeiro de fontes supervisionadas pelo Minist\u00e9rio da Fazenda e de recursos livres das institui\u00e7\u00f5es financeiras para a disponibiliza\u00e7\u00e3o de linhas de cr\u00e9dito rural destinadas \u00e0 liquida\u00e7\u00e3o ou \u00e0 amortiza\u00e7\u00e3o de d\u00edvidas de produtores\nrurais prejudicados por eventos adversos.",
       "data_apresentacao": "2025-09-05T00:00",
       "status": "Abertura de Prazo",
       "dias_restantes": 75,
@@ -309,7 +309,7 @@
     {
       "id": 2557414,
       "numero": "MPV 1313/2025",
-      "ementa": "Altera a Lei nº 14.237, de 19 de novembro de 2021, para modificar a denominação do Auxílio Gás dos Brasileiros para Auxílio Gás do Povo e criar nova modalidade de operacionalização do auxílio.",
+      "ementa": "Altera a Lei n\u00ba 14.237, de 19 de novembro de 2021, para modificar a denomina\u00e7\u00e3o do Aux\u00edlio G\u00e1s dos Brasileiros para Aux\u00edlio G\u00e1s do Povo e criar nova modalidade de operacionaliza\u00e7\u00e3o do aux\u00edlio.",
       "data_apresentacao": "2025-09-04T00:00",
       "status": "Abertura de Prazo",
       "dias_restantes": 74,
@@ -322,27 +322,27 @@
     {
       "id": 2555417,
       "numero": "MPV 1312/2025",
-      "ementa": "Abre crédito extraordinário, em favor do Ministério da Agricultura e Pecuária, no valor de R$ 83.500.000,00, para o fim que especifica.",
+      "ementa": "Abre cr\u00e9dito extraordin\u00e1rio, em favor do Minist\u00e9rio da Agricultura e Pecu\u00e1ria, no valor de R$ 83.500.000,00, para o fim que especifica.",
       "data_apresentacao": "2025-09-02T00:00",
-      "status": "Prorrogação de Prazo",
+      "status": "Prorroga\u00e7\u00e3o de Prazo",
       "dias_restantes": 72,
       "nivel_urgencia": 2,
       "prazo_vencido": false,
       "importancia": 5,
-      "categoria": "emergência",
+      "categoria": "emerg\u00eancia",
       "coletado_em": "2025-10-20T19:02:25.520765"
     },
     {
       "id": 2555416,
       "numero": "MPV 1311/2025",
-      "ementa": "Abre crédito extraordinário, em favor do Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome, no valor de R$ 30.590.400,00, para os fins que especifica.",
+      "ementa": "Abre cr\u00e9dito extraordin\u00e1rio, em favor do Minist\u00e9rio do Desenvolvimento e Assist\u00eancia Social, Fam\u00edlia e Combate \u00e0 Fome, no valor de R$ 30.590.400,00, para os fins que especifica.",
       "data_apresentacao": "2025-09-02T00:00",
-      "status": "Prorrogação de Prazo",
+      "status": "Prorroga\u00e7\u00e3o de Prazo",
       "dias_restantes": 72,
       "nivel_urgencia": 2,
       "prazo_vencido": false,
       "importancia": 5,
-      "categoria": "emergência",
+      "categoria": "emerg\u00eancia",
       "coletado_em": "2025-10-20T19:02:25.890858"
     }
   ]
