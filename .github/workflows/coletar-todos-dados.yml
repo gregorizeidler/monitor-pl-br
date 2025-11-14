@@ -3,9 +3,10 @@
 name: Monitor PL - Coletor Completo
 
 on:
-  schedule:
+  # EXECUÇÃO AUTOMÁTICA DESABILITADA
+  # schedule:
     # Roda 2x por dia: 9h e 17h (Brasília) = 12h e 20h (UTC)
-    - cron: '0 12,20 * * *'
+    # - cron: '0 12,20 * * *'
   
   # Permite execução manual
   workflow_dispatch:

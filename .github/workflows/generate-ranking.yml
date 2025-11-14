@@ -6,9 +6,10 @@
 name: Monitor PL - Gerador de Ranking
 
 on:
-  schedule:
+  # EXECUÇÃO AUTOMÁTICA DESABILITADA
+  # schedule:
     # Roda às 05:00 UTC dos dias 1 e 15 de cada mês.
-    - cron: '0 5 1,15 * *'
+    # - cron: '0 5 1,15 * *'
   workflow_dispatch:
 
 jobs:

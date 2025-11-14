@@ -6,14 +6,15 @@
 name: Monitor PL - Bot de Gastos
 
 on:
+  # EXECUÇÃO AUTOMÁTICA DESABILITADA
   # O gatilho 'schedule' permite rodar a automação em horários específicos.
-  schedule:
+  # schedule:
     # A sintaxe cron '0 15,21 * * *' significa:
     # - 0: no minuto 0
     # - 15,21: às 15:00 e 21:00
     # - * * *: todos os dias, de todos os meses, em qualquer dia da semana.
     # NOTA: Os horários são em UTC. 15:00 UTC = 12:00 Brasília | 21:00 UTC = 18:00 Brasília
-    - cron: '0 15,21 * * *'
+    # - cron: '0 15,21 * * *'
 
   # O gatilho 'workflow_dispatch' permite que você rode este workflow manualmente
   # a partir da aba "Actions" no seu repositório do GitHub. Útil para testes.

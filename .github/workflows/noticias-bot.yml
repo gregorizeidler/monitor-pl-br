@@ -3,9 +3,10 @@
 name: Monitor PL - Bot de Notícias
 
 on:
-  schedule:
+  # EXECUÇÃO AUTOMÁTICA DESABILITADA
+  # schedule:
     # Roda a cada 2 horas (UTC)
-    - cron: '0 */2 * * *'
+    # - cron: '0 */2 * * *'
 
   workflow_dispatch:
 

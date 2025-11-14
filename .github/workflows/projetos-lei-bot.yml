@@ -4,9 +4,10 @@
 name: Monitor PL Brasil - Automação
 
 on:
-  schedule:
+  # EXECUÇÃO AUTOMÁTICA DESABILITADA
+  # schedule:
     # Roda uma vez por dia às 14:00 UTC (11:00 Brasília)
-    - cron: '0 14 * * *'
+    # - cron: '0 14 * * *'
 
   workflow_dispatch:
 
